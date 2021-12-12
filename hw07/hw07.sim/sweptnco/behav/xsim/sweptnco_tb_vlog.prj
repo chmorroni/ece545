@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../hw07.srcs/sources_1/new/fir_rag.v" \
+"../../../../hw07.srcs/sweptnco/new/fun_text.v" \
+"../../../../hw07.srcs/sweptnco/new/sweptnco_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

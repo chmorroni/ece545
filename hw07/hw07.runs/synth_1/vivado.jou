@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Oct  8 21:17:23 2021
+# Process ID: 21036
+# Current directory: C:/Users/chmor/Desktop/ece545/hw07/hw07.runs/synth_1
+# Command line: vivado.exe -log fir_rag.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fir_rag.tcl
+# Log file: C:/Users/chmor/Desktop/ece545/hw07/hw07.runs/synth_1/fir_rag.vds
+# Journal file: C:/Users/chmor/Desktop/ece545/hw07/hw07.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fir_rag.tcl -notrace
