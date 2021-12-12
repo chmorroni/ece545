@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Thu Sep  9 22:38:45 2021
+# Process ID: 15884
+# Current directory: C:/Users/chmor/Desktop/ece545/hw3/hw3.runs/synth_1
+# Command line: vivado.exe -log qv2g.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source qv2g.tcl
+# Log file: C:/Users/chmor/Desktop/ece545/hw3/hw3.runs/synth_1/qv2g.vds
+# Journal file: C:/Users/chmor/Desktop/ece545/hw3/hw3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source qv2g.tcl -notrace
+Command: synth_design -top qv2g -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 16092
+ERROR: [Synth 8-1873] declarations not allowed in unnamed block [C:/Users/chmor/Desktop/ece545/hw3/hw3.srcs/sources_1/new/qv2g.v:25]
+INFO: [Synth 8-2350] module qv2g ignored due to previous errors [C:/Users/chmor/Desktop/ece545/hw3/hw3.srcs/sources_1/new/qv2g.v:3]
+Failed to read verilog 'C:/Users/chmor/Desktop/ece545/hw3/hw3.srcs/sources_1/new/qv2g.v'
+INFO: [Common 17-83] Releasing license: Synthesis
+6 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Thu Sep  9 22:38:59 2021...
