@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../hw05.srcs/sim_1/new/fun_text.v" \
+"../../../../hw05.srcs/sources_1/new/moving_average_fir.v" \
+"../../../../hw05.srcs/sim_1/new/testbench.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
