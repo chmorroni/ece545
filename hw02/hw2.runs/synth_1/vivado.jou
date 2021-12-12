@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed Sep  1 23:13:24 2021
+# Process ID: 17040
+# Current directory: C:/Users/chmor/Desktop/ece545/hw2/hw2.runs/synth_1
+# Command line: vivado.exe -log qv2g.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source qv2g.tcl
+# Log file: C:/Users/chmor/Desktop/ece545/hw2/hw2.runs/synth_1/qv2g.vds
+# Journal file: C:/Users/chmor/Desktop/ece545/hw2/hw2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source qv2g.tcl -notrace
