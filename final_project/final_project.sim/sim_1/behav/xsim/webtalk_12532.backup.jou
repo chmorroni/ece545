@@ -2,8 +2,8 @@
 # Webtalk v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Mon Dec 13 20:09:33 2021
-# Process ID: 24168
+# Start of session at: Sun Nov  7 11:27:56 2021
+# Process ID: 12532
 # Current directory: C:/Users/chmor/Desktop/ece545/final_project/final_project.sim/sim_1/behav/xsim
 # Command line: wbtcv.exe -mode batch -source C:/Users/chmor/Desktop/ece545/final_project/final_project.sim/sim_1/behav/xsim/xsim.dir/tx_testbench_behav/webtalk/xsim_webtalk.tcl -notrace
 # Log file: C:/Users/chmor/Desktop/ece545/final_project/final_project.sim/sim_1/behav/xsim/webtalk.log

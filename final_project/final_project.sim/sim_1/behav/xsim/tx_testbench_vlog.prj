@@ -2,6 +2,7 @@
 verilog xil_defaultlib  \
 "../../../../final_project.srcs/sources_1/new/bpsk_tx.v" \
 "../../../../final_project.srcs/sources_1/new/fun_text.v" \
+"../../../../final_project.srcs/sources_1/new/transmit.v" \
 "../../../../final_project.srcs/sim_1/new/tx_testbench.v" \
 
 # compile glbl module

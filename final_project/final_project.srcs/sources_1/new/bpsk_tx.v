@@ -1,9 +1,9 @@
 
 module bpsk_tx(
-    input signed data, // input signal
-    input clk,             // clock
-    input rst,             // clock
-    output wire signed [7:0] y     // output signal
+    input signed data,         // input signal
+    input clk,                 // clock
+    input rst,                 // reset
+    output wire signed [7:0] y // output signal
 );
 
     parameter carrier_incr = 1; // the increment value for the carrier NCO
