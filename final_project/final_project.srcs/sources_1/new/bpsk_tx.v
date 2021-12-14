@@ -3,6 +3,7 @@ module bpsk_tx(
     input signed data,         // input signal
     input clk,                 // clock
     input rst,                 // reset
+    input en,                  // enable
     output wire signed [7:0] y // output signal
 );
 
@@ -15,6 +16,7 @@ module bpsk_tx(
     fun_text signal_gen (
         .clk (clk),
         .reset (rst),
+        .en (en),
         .M (carrier_incr),
         .sin (carrier_signal_unsigned),
         .acc (acc)

@@ -2,8 +2,8 @@
 # Vivado v2021.1 (64-bit)
 # SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
 # IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
-# Start of session at: Mon Dec 13 20:06:52 2021
-# Process ID: 18140
+# Start of session at: Mon Dec 13 21:27:47 2021
+# Process ID: 4116
 # Current directory: C:/Users/chmor/Desktop/ece545/final_project/final_project.runs/synth_1
 # Command line: vivado.exe -log transmit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source transmit.tcl
 # Log file: C:/Users/chmor/Desktop/ece545/final_project/final_project.runs/synth_1/transmit.vds

@@ -8,6 +8,7 @@ module fun_text             //----> Interface
   #(parameter WIDTH = 32) // Bit width
  (input  clk,             // System clock
   input  reset,           // Asynchronous reset
+  input  en,
   input  [WIDTH-1:0]  M,  // Accumulator increment
   output reg [7:0]  sin,      // System sine output
   output [7:0]  acc);     // Accumulator MSBs
@@ -19,7 +20,7 @@ module fun_text             //----> Interface
   always @(posedge clk or posedge reset)    
       if (reset == 1)  
         acc32 <= 0;
-      else begin    
+      else if (en == 1) begin    
         acc32 <= acc32 + M; //-- Add M to acc32 and 
       end                   //-- store in register
     
